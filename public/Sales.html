@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <title>CS340</title>
+        <link rel="stylesheet" href="style.css" media="screen">
+    </head>
+<body>
+    <header>
+        <h1 id="title"><a href="index.html">Game Sales</a></h1>
+        <div id="head">
+           <a href ="Customers.html" class="navitem"> Customers</a>
+           <a href ="Reviews.html" class="navitem"> Reviews</a>
+           <a href ="Games.html" class="navitem"> Games</a>
+           <a href ="Sales.html" class="navitem"> Sales</a>
+           <a href ="Genres.html" class="navitem"> Genres</a>
+        </div>
+     </header>
+
+     <div id="content">
+        <div id="forms">
+            <div id="container">
+                <label class="action-label" for="INSERT-sale"> Add a Sale </label>
+                <form id="INSERT-sale">
+                    <label for="sale_price">Price</label>
+                    <input type="text" id="sale_price" name="INSERT" placeholder="1.00">
+                    
+                    <label for="customer_id">Customer ID</label>
+                    <input type="text" id="customer_id" name="INSERT" placeholder="0">
+
+                    <label for="game_id">Game ID</label>
+                    <input type="text" id="game_id" name="INSERT" placeholder="0">
+
+                    <input type="submit" value="Add">
+                </form>
+            </div>
+        </div>
+    
+        <div id="tables">
+            <div id="table-container">
+                <table id="sales-table">
+                    <tr>
+                        <th>Sale ID</th>
+                        <th>Sale Price</th>
+                        <th>Customer ID</th>
+                        <th>Game ID</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>19.99</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
